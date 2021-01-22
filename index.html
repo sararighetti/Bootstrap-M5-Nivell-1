@@ -36,8 +36,12 @@
 <button type="button" class="btn btn-info" data-toggle="modal" data-target="#exampleModal">
     Login
   </button>
+          <!-- Button trigger modal -->
+<button type="button" class="btn btn-info" data-toggle="modal1" data-target="#exampleModal">
+ Register
+</button>
   
-  <!-- Modal -->
+  <!-- Modal Login -->
   <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
     <div class="modal-dialog">
       <div class="modal-content">
@@ -55,8 +59,32 @@
           <a href="#">Forgot Password?</a>
         </div>
         <div class="modal-footer">
-          <button type="button" class="btn btn-secondary" >Create Account</button>
+         
           <button type="button" class="btn btn-info">Login</button>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- Modal registre-->
+  <div class="modal fade" id="exampleModal1" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <div class="modal-dialog">
+      <div class="modal-content">
+        <div class="modal-header bg-info" >
+          <h5 class="modal-title" id="exampleModalLabel">Sign-in</h5>
+          <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+            <span aria-hidden="true">&times;</span>
+          </button>
+        </div>
+        <div class="modal-body">
+            <p><b>Usarname or email</b>
+          <input type="text" id="username" placeholder="Username"></p>
+          <p><b>Password</b>
+          <input type="text" id="password" placeholder="Password"></p>
+          <p><b>Confirm Passwrod</b>
+            <input type="text" id="username" placeholder=" Confirm Password"></p>
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-secondary" >Create Account</button>
         </div>
       </div>
     </div>
